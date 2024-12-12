@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+html {
+    /* font-size: 62.5%; */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rebeccapurple;
+    width: 100vw;
+    color: white;
+}
+
+header {
+    width: 100%;
+    height: 80vh;
+    /* gradient bg */
+    background: linear-gradient(rgba(255, 99, 71, 0.5), rgba(102, 51, 153, 0.5));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+main {
+    width: 100%;
+}
+
+section {
+    width: 80vw;
+    height: 100vh;
+}
+
+#home, #services, #contact {
+    background-color: darkslateblue;
+    margin: 2rem auto;
+}
+
+#about, #portfolio {
+    background-color: rgba(71, 61, 139, 0.502);
+    margin: 2rem auto;
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: tomato;
+}
+
+/* responsive design */
+@media screen and (max-width: 768px) {
+    section {
+        width: 100vw;
+    }
+}
+
