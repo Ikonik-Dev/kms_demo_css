@@ -74,3 +74,10 @@ a {
     border-radius: 5px;
     box-shadow: 0 0 5px #ccc;
 }
+
+.sous_titre_section {
+    margin: 0 auto;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 1rem;
+}
